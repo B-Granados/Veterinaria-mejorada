@@ -1,0 +1,173 @@
+
+.navegar{
+    margin-bottom: 60%;
+    background-color: black;
+    opacity: 0.7;
+    padding: 0.9%;
+    margin-left: -1%;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.navegar a{ 
+    color: white;
+    text-decoration: none;
+
+}
+.fondo{
+    width: 100%;
+    height: auto;
+}
+.logo{
+    
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    margin-top: 6%;
+    max-width:30% ;
+    height: auto;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline-start: 0;
+    justify-content: space-around;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    }
+    nav ul  li a:hover{
+        color: aquamarine;
+        text-decoration: overline;
+    }
+    article{
+        flex-basis: 500px;
+        max-width: 50%;  
+        margin: 10px;
+        margin-top: 5%;
+        justify-content: space-evenly;
+    }
+    .ar{
+        margin: 5%;
+    }
+    figcaption{
+        color: rgb(147, 224, 30);
+    }
+    .huella{
+        display: flex;
+    }
+.peluqueria{
+    float: left;
+    max-width: 100%;
+    height: auto;
+    margin: 25px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px 1px rgb(138, 197, 27);
+    
+    }
+    /*Esto es el texto al lado de los perros */
+    .parrafo{
+        width: 120%;
+        text-align: justify;
+    }
+    
+    /*Esta es imagen de los animales */
+    .animales{
+        max-width: 100%;
+        height: auto;
+     
+    }
+.logo{
+    margin-top: 4%;
+}
+.seccion1{
+    display: flex;
+    justify-content: space-around;
+}
+.huella{
+    display: inline-flex;
+}
+.peluqueria{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 0%;
+    color: rgb(155, 226, 23);
+}
+.seccion2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.letras{
+    text-align: justify;
+    
+}
+.foto{
+    float: left;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px 1px green;
+    padding: 1%;
+    background-size: 100%;
+}
+.descripcion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 6%;
+    width: 500px;
+}
+.subtitulo{
+    margin-right: 38%;
+}
+.texto{
+    text-align: justify;
+}
+.futer{
+    background-color: white;
+    display: flex;
+    border-radius: 30px;
+    box-shadow:  0 0 20px rgb(43, 38, 38);
+    margin-top: 4%;
+    
+}
+.fin{
+ flex-basis: 90%;
+}
+.par{
+    text-align: center;
+    margin-left: 18%;
+}
+/*Final */
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 5%;
+}
+.final{
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgb(43, 38, 38) ;
+    border: 1px solid #4d4545;
+   margin-top: 4%;
+   
+
+}
+.con_final{
+  text-align: right;
+
+}
+.logo_final{
+margin-top: -20%;
+max-width:20% ;
+height: auto;
+
+
+}

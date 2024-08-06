@@ -1,0 +1,139 @@
+
+nav{
+    margin-bottom: 60%;
+    background-color: black;
+    opacity: 0.7;
+    padding: 0.9%;
+    margin-left: -1%;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav ul  li{
+    display: inline-block;
+    flex-wrap: wrap;
+}
+nav ul li a{
+    margin-right: 90px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+nav ul  li a:hover{
+    color: aquamarine;
+    text-decoration: overline;
+}
+.fondo{
+    width: 100%;
+     max-width:100% ;
+     height: auto;
+  
+     /*animation: movimiento 2.5s linear infinite;*/ 
+ }
+ .logo{
+     position: absolute;
+     top: 20px;
+     left: 30px;
+     margin-top: 6%;
+     max-width:30% ;
+     height: auto;
+ }
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.menu a{
+    list-style: none;
+    margin: 50px;
+    color: bisque;
+    text-decoration: none;
+}
+section{
+    display: flex;
+    justify-content: center;
+    
+}
+nav ul  li a:hover{
+    color: aquamarine;
+    text-decoration: overline;
+}
+form{
+    border-radius: 30px;
+    border: 1px;
+    box-shadow: 1px 1px 3px 3px ;
+    min-height: 500px;
+    margin-top: 5%;
+    background-image: url(imagenes/hoski.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+fieldset{
+    border: 1px;
+    color: black;
+    text-align: justify;
+}
+.sub{
+    text-align: center;
+}
+.subt{
+    margin-left: 3%;
+}
+.div1{
+    text-align: center;
+
+
+}
+.div1 a{
+    text-decoration: none;
+    color: black;
+border-radius: 20px;
+box-shadow: 3px 3px 2px 1px ;
+}
+.tit{
+    margin-left: 12%;
+}
+.futer{
+    background-color: white;
+    display: flex;
+    border-radius: 30px;
+    box-shadow:  0 0 20px rgb(43, 38, 38);
+    margin-top: 4%;
+    
+}
+.fin{
+ flex-basis: 90%;
+}
+.par{
+    text-align: center;
+    margin-left: 18%;
+}
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 5%;
+}
+.final{
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgb(43, 38, 38) ;
+    border: 1px solid #4d4545;
+   margin-top: 4%;
+   
+
+}
+.con_final{
+  text-align: right;
+
+}
+.logo_final{
+margin-top: -20%;
+max-width:20% ;
+height: auto;
+
+
+}

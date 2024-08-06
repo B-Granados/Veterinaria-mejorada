@@ -1,0 +1,151 @@
+.menu1 a{
+    list-style: none;
+    margin: 50px;
+    color: #d0d4d1;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 1px;
+    box-shadow: 1px 1px 3px 3px rgb(76, 0, 255);
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+}
+.fondo{
+    width: 100%;
+    height: auto;
+}
+.logo{
+    
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    margin-top: 6%;
+    max-width:30% ;
+    height: auto;
+}
+
+
+.navegacion {
+    margin-bottom: 60%;
+    background-color: black;
+    opacity: 0.7;
+    padding: 0.9%;
+    margin-left: -1%;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+nav ul  li a:hover{
+    color: aquamarine;
+    text-decoration: overline;
+}
+
+.navegacion a{
+    font-size: 18px;  
+    color: white;
+    padding:  10px;
+    text-decoration: none;
+    font-weight: 600;   
+}
+.menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline-start: 0;
+    justify-content: space-around;
+}
+.logo{
+    margin-top: 5%;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1%;
+    
+}
+.articulos{
+    width: 270px;
+    padding: 2%;
+}
+.nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 5%;
+}
+.final{
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgb(43, 38, 38) ;
+    border: 1px solid #4d4545;
+   margin-top: 4%;
+   
+
+}
+.con_final{
+  text-align: right;
+
+}
+.logo_final{
+margin-top: -20%;
+max-width:20% ;
+height: auto;
+
+
+}
+
+.titulos{
+    display: flex;
+    margin-left: 2%;
+}
+.sub{
+    margin-left: 2%;
+    margin-top: 4%;
+    color: rgb(150, 211, 38);
+    text-align: justify;
+}
+.parrafo1{
+    text-align: justify;
+    margin-left: 6%;
+}
+.parrafo2{
+    text-align: justify;
+    
+}
+.imagen{
+    float: left;
+    border-radius: 30px;
+}
+.formulario{
+    background-color:grey;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px 1px rgb(64, 112, 76);
+    color: white;
+    text-align: justify;
+
+}
+.form{
+    color: black;
+}
+.enviar{
+    border-radius: 20px;
+    margin-left: 100px;
+}
+.tit{
+    margin-left: 8%;
+}
+.futer{
+    background-color: white;
+    display: flex;
+    border-radius: 30px;
+    box-shadow:  0 0 20px rgb(43, 38, 38);
+    
+}
+.fin{
+ flex-basis: 90%;
+}
+.par{
+    text-align: center;
+    margin-left: 18%;
+}
+

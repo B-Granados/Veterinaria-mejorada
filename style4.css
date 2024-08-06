@@ -1,0 +1,310 @@
+body{
+
+}
+nav{
+    margin-bottom: 60%;
+    background-color: black;
+    opacity: 0.7;
+    padding: 0.9%;
+    margin-left: -1%;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    flex-wrap: wrap;
+}
+nav ul li a{
+    margin-right: 90px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul  li a:hover{
+    color: aquamarine;
+    text-decoration: overline;
+}
+.contiene{
+    position: relative;
+}
+.intento{
+    text-align: center;
+}
+.ar{
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px 1px grey;
+}/*Brian Granados*/
+
+.fondo{
+    
+    width: 90%;
+ /*   animation: movimiento 2.5s linear infinite;*/
+    margin-top: 10%;
+  }/*
+  @keyframes movimiento{
+   0%{
+    transform: translateY(0);
+   }
+   50%{
+    transform: translateY(30px);
+   }
+   100%{
+    transform: translateY(0);
+   }
+
+  }*/
+  .lo {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    margin-top: 6%;
+    max-width:48% ;
+    height: auto;
+  }
+  .vamos{
+    display: flex;
+  }
+  .ventajas{
+    color: rgb(117, 214, 52);
+    opacity: 0.8;
+    z-index: 1000;
+  }
+  .imagen1{
+    
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px 1px rgb(138, 197, 27);
+  }
+  .imagen2{
+    
+    max-width: 100%;
+    width: 300px;
+    height: 250px;
+    display: block;
+    
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px 1px rgb(138, 197, 27) ;
+  }
+
+    /*
+  .vea{
+    width: 100%;
+    height: 100px;
+  }*/
+  .ingreso{
+    float: left;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px 1px rgb(138, 197, 27) ;
+  }
+ .dinero{
+    background-color: rgb(45, 218, 45);
+    color: white;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+ } 
+ .arreglo{
+    margin-left: 5%;
+ }
+ .motilada{
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px 1px rgb(138, 197, 27) ;
+ }
+ .con_aseo{
+ margin-top: -2%;
+ }
+ .con_supervisar{
+    margin-top: 7%;
+ }
+ .mirar{
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px 1px rgb(138, 197, 27) ;
+ }
+ .con_ejercicio{
+    margin-top: -2%;
+ }
+ .ejer{
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px 1px rgb(138, 197, 27) ;
+ }
+ .atp{
+    margin-top: 4%;
+    width: 600px;
+    border-radius: 0px;
+    box-shadow: 0 0 20px grey ;
+ }
+ .set{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+ .prv {
+    max-width: 100%; 
+    height: auto; 
+    margin: 0 auto;
+    display: block;
+}
+
+.prv:hover {
+    filter: grayscale(100%); 
+}
+.img_1{
+    max-width: 100%; 
+    height: auto; 
+    margin: 0 auto;
+    display: block;
+}
+.img_1:hover{
+    filter: grayscale(100%); 
+    
+}
+.img_2{
+    max-width: 100%; 
+    height: auto; 
+    margin: 0 auto;
+    display: block;
+}
+.img_2:hover{
+    filter: grayscale(100%); 
+}
+.img_3{
+
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.img_3:hover{
+    filter: grayscale(100%);
+}
+.pro{
+    justify-content: center;
+}
+.fu{
+    text-align: center;
+    margin-top: -4%;
+}
+P{
+    margin-left: 2%;
+   justify-content: center;
+    text-align: justify;
+}
+.rou{
+    text-align: justify;
+    width: 85%;
+    margin-left: 8%;
+} 
+.rod{
+   
+    text-align: justify;
+    width: 85%;
+    margin-left: 8%;
+}
+.ro{
+    width: 90%;
+    width: 85%;
+    margin-left: 8%;
+}
+.ru{
+    width: 85%;
+    margin-left: 8%;
+}
+.parr{
+    width: 90%;
+}
+.par{
+    width: 90%;
+}
+.final{
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgb(43, 38, 38) ;
+    border: 1px solid #4d4545;
+   margin-top: 4%;
+}
+.bot{
+    
+  position: relative;
+     color: #000;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 1.5em;
+     letter-spacing: 0.1em;
+     font-weight: 400;
+     padding: 10px 30px;
+     transition: 0.5s;
+    background-color: green;
+     cursor: pointer;
+     padding: 10px 50px;
+     margin-bottom: 6%; 
+    
+}
+.bot:hover{
+    background: var(--clr);
+    letter-spacing: 0.2em;
+}
+.bien{
+  
+    text-align: center;
+    color: white;
+    z-index: 1000;
+    margin-top: -6.4%;
+
+   
+}
+.per{
+    z-index: 1000;
+}
+
+.bt{
+    background: grey;
+    opacity: 0.7;
+    margin-bottom: ;
+}
+/*
+.botn{
+    color: white;
+    background-color:rgb(11, 141, 11);
+    padding: 10px 50px;
+    
+}*/
+.modifi{
+text-align: right;
+width: 94%;
+}
+.ajustar{
+    text-align: center;
+    list-style: none;
+}
+.contac{
+    margin-top: 1%;
+}
+.casi{
+    text-align: right;
+      margin-top: -2%;
+    }
+    .imgfinal{
+        max-width:10% ;
+        height: auto;
+       
+        
+    }

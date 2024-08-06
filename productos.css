@@ -1,0 +1,224 @@
+body{
+    font-size: 15px;
+}
+
+.navegacion {
+    margin-bottom: 60%;
+    background-color: black;
+    opacity: 0.7;
+    padding: 0.9%;
+    margin-left: -1%;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline-start: 0;
+    justify-content: space-around;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.se{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+nav ul  li a:hover{
+    color: aquamarine;
+    text-decoration: overline;
+}
+.con{
+    width: 300px;
+    border-radius: 0px;
+    box-shadow: 0 0 20px grey ;
+    margin-top: 2%;
+}
+
+.agil{
+    width: 250px;
+    height: 300px;
+}
+
+
+  /*  align-items: flex-end;
+
+.alimenta{
+   
+}*/
+.cosa{
+    width: 250px;
+    height: 300px;
+}
+.bufa{
+    width: 250px;
+    height: 300px;
+}
+.pv{
+    height: 300px; 
+}
+.cp{
+    width: 250px;
+    height: 300px;
+}
+.alimentas{
+    width: 250px;
+    height: 300px;
+    }
+.boton{
+    text-align: right;  
+  }
+  .botones{
+      border-radius: 30px  ;
+      color:orange;
+      margin-right: 5%;
+      margin-bottom: 4%       ;
+      
+  }
+.logo{
+    margin-top: 4%;
+}
+.gato{
+    display: flex;
+    margin-left: 25%;
+}
+.articulo2{
+    display: flex;
+    font-size: 17px;
+    text-align: justify;
+    
+}
+.articulo3{
+    display: flex;
+    font-size: 17px;
+    text-align: justify;
+}
+.img{
+    float: left;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px 1px green;
+    padding: 1%;
+ 
+}
+.parrafo{
+    font-size: 14px;
+}
+.imge{
+    float: right;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px 1px green;
+    padding: 1%;
+    
+}
+.seccion2{
+    display: flex; 
+    justify-content: center;
+    padding: 2%; 
+    flex-wrap: wrap; 
+    margin-top: 2%;
+    
+}
+.linea1{
+    padding: 4%;
+    background-color: white;
+    margin-left: 2%;
+    border: 20px;
+    box-shadow: 3px 3px 3px 3px rgb(145, 130, 25);
+    width: 200px;
+    margin-top: 3%;
+}
+
+.linea2{
+    padding: 4%;
+    background-color: white;
+    margin-left: 2%;
+    border: 20px;
+    box-shadow: 3px 3px 3px 3px rgb(145, 130, 25);
+    width: 200px;
+    margin-top: 3%;
+}
+.seccion5{
+    display: flex;
+}
+.gato1{
+    float: left;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px 1px green;
+    padding: 1%;
+}
+.seccion6{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    flex-wrap: wrap; 
+    
+}
+
+.btn{
+    border-radius: 30px;
+    border: 1px solid blue;
+    color: red;
+    margin-left: 60%;
+}
+.futer{
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+    box-shadow:  0 0 20px rgb(43, 38, 38);
+    margin-top: 4%;
+    
+}
+.fin{
+ flex-basis: 90%;
+}
+.par{
+    text-align: center;
+    margin-left: 18%;
+}
+/*Final footer */
+.nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 5%;
+}
+.final{
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgb(43, 38, 38) ;
+    border: 1px solid #4d4545;
+   margin-top: 4%;
+   
+
+}
+.fondo{
+    width: 100%;
+    height: auto;
+}
+.logo{
+    
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    margin-top: 6%;
+    max-width:30% ;
+    height: auto;
+}
+
+.produc{
+    text-align: center;
+}
+.con_final{
+  text-align: right;
+
+}
+.logo_final{
+margin-top: -20%;
+max-width:20% ;
+height: auto;
+
+
+}
